@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Argent Pixel CF";
+    font-family: Argent Pixel CF;
     src: url("..\Webfont\ArgentPixelCF-Regular.eot");
     src: url("..\Webfont\ArgentPixelCF-Regular.woff");
     src: url("..\Webfont\ArgentPixelCF-Regular.woff2");
@@ -22,14 +22,14 @@
     --background-color: #fbfbfb;
     --text-primary: #272727;
     --ff-sans: 'Space Grotesk', sans-serif;
-    --ff-serif: 'Argent Pixel CF', serif;
+    --ff-serif: Argent Pixel CF;
     --ff-mono: 'Space Mono', monospace;
     --margin: 50px;
     --margin-small: 30px;
-    --p-width: 35%;
+    --p-width: 40%;
     --p-width-small: 50%;
-    --p-width-big: 26%;
-    --p-width-ultra: 20%;
+    --p-width-big: 30%;
+    --p-width-ultra: 22%;
     --body-width: 90%;
     --body-width-small: 95%;
     --body-width-big: 70%;
@@ -127,12 +127,12 @@ a {
 }
 
 .p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
 .p-and-a-bit {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -169,8 +169,6 @@ figcaption {
 }
 
 .logo-img {
-    position: relative;
-    z-index: 1000;
     animation: spin 4s linear infinite;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
@@ -185,10 +183,6 @@ figcaption {
 }
 @-moz-keyframes spin {
     100% {-webkit-transform: rotate(360deg);}
-}
-
-.prompt-big {
-    margin-left: 25px;
 }
 
 .link-list, .home {
@@ -469,7 +463,7 @@ figcaption {
     flex-direction: row-reverse;
     font-family: var(--ff-sans);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*MEDIA QUERIES*/
@@ -486,12 +480,12 @@ figcaption {
     }
 
     .h3 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 36px;
     }
 
     .h3-and-a-bit {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0;
     }
 
@@ -501,12 +495,10 @@ figcaption {
         padding: 30px var(--margin-small);
     }
 
-    .hamburger, .prompt-small {
+    .hamburger {
         background: transparent;
         border: transparent;
         display: block;
-        position: relative;
-        z-index: 1000;
     }
 
     .hamburger_active .bar:nth-child(1) {
@@ -595,7 +587,6 @@ figcaption {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 11px;
     }
 }
 
