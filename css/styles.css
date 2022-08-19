@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Argent Pixel CF";
-    src: url("Webfont\ArgentPixelCF-Regular.eot");
-    src: url("Webfont\ArgentPixelCF-Regular.woff");
-    src: url("Webfont\ArgentPixelCF-Regular.woff2");
+    src: url("..\Webfont\ArgentPixelCF-Regular.eot");
+    src: url("..\Webfont\ArgentPixelCF-Regular.woff");
+    src: url("..\Webfont\ArgentPixelCF-Regular.woff2");
     /* Used under personal license; Argent Pixel CF © Connary Fagen Inc. / connary.com */
     }
 
@@ -526,9 +526,8 @@ figcaption {
         
     }
 
-    .link-list {
-        background-color: rgba(251, 251, 251, 0.8);
-        backdrop-filter: blur(5px);
+    .link-list, .link-list:hover {
+        background-color: var(--background-color);
         font-family: var(--ff-sans);
         font-size: 20px;
         left: 100%;
