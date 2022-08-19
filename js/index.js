@@ -1,7 +1,7 @@
-//window.addEventListener("scroll", function(){
-    //var navBar = document.querySelector(".navbar");
-    //navBar.classList.toggle("sticky", window.scrollY > 0);
-//})
+window.addEventListener("scroll", function(){
+    var navBar = document.querySelector(".navbar");
+    navBar.classList.toggle("sticky", window.scrollY > 0);
+})
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".link-list");
