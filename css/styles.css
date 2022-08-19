@@ -3,6 +3,9 @@
     src: url("..\Webfont\ArgentPixelCF-Regular.eot");
     src: url("..\Webfont\ArgentPixelCF-Regular.woff");
     src: url("..\Webfont\ArgentPixelCF-Regular.woff2");
+    src: url("..\Webfont\ArgentPixelCF-Italic.eot");
+    src: url("..\Webfont\ArgentPixelCF-Italic.woff");
+    src: url("..\Webfont\ArgentPixelCF-Italic.woff2");
     /* Used under personal license; Argent Pixel CF © Connary Fagen Inc. / connary.com */
     }
 
@@ -490,16 +493,6 @@ figcaption {
     .h3-and-a-bit {
         font-size: 20px;
         margin: 0;
-    }
-    
-    .p {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .p-and-a-bit {
-        font-size: 14px;
-        line-height: 20px;
     }
 
     /*NAVBAR*/
