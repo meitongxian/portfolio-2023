@@ -212,6 +212,7 @@ figcaption {
 .link-list:hover {
     background-color: rgba(251, 251, 251, 0.8);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .underline::before, .underlined::before {
@@ -519,6 +520,7 @@ figcaption {
     .link-list, .link-list:hover {
         background-color: rgba(251, 251, 251, 0.8);
         backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         font-family: var(--ff-sans);
         font-size: 20px;
         left: 100%;
