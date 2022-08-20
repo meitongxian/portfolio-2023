@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Argent Pixel CF";
     /* Argent Pixel CF used under personal license;  © Connary Fagen Inc. / connary.com */
-    src: url("..\Webfont\ArgentPixelCF-Regular.eot") format("eot"),
-         url("..\Webfont\ArgentPixelCF-Regular.woff") format("woff"),
-         url("..\Webfont\ArgentPixelCF-Regular.woff2") format("woff2");
+    src: url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Regular.eot") format("eot"),
+         url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Regular.woff") format("woff"),
+         url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Argent Pixel CF";
-    src: url("..\Webfont\ArgentPixelCF-Italic.eot") format("eot"),
-         url("..\Webfont\ArgentPixelCF-Italic.woff") format("woff"),
-         url("..\Webfont\ArgentPixelCF-Italic.woff2") format("woff2");
+    src: url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Italic.eot") format("eot"),
+         url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Italic.woff") format("woff"),
+         url("https://meitongxian.github.io/Webfont/ArgentPixelCF-Italic.woff2") format("woff2");
     font-style: italic;
 }
 
