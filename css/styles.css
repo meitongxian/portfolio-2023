@@ -1,13 +1,18 @@
 @font-face {
-    font-family: Argent Pixel CF;
-    src: url("..\Webfont\ArgentPixelCF-Regular.eot");
-    src: url("..\Webfont\ArgentPixelCF-Regular.woff");
-    src: url("..\Webfont\ArgentPixelCF-Regular.woff2");
-    src: url("..\Webfont\ArgentPixelCF-Italic.eot");
-    src: url("..\Webfont\ArgentPixelCF-Italic.woff");
-    src: url("..\Webfont\ArgentPixelCF-Italic.woff2");
-    /* Used under personal license; Argent Pixel CF © Connary Fagen Inc. / connary.com */
-    }
+    font-family: "Argent Pixel CF";
+    /* Argent Pixel CF used under personal license;  © Connary Fagen Inc. / connary.com */
+    src: url("..\Webfont\ArgentPixelCF-Regular.eot") format("eot"),
+         url("..\Webfont\ArgentPixelCF-Regular.woff") format("woff"),
+         url("..\Webfont\ArgentPixelCF-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Argent Pixel CF";
+    src: url("..\Webfont\ArgentPixelCF-Italic.eot") format("eot"),
+         url("..\Webfont\ArgentPixelCF-Italic.woff") format("woff"),
+         url("..\Webfont\ArgentPixelCF-Italic.woff2") format("woff2");
+    font-style: italic;
+}
 
 /*INITIAL SETUP*/
 
@@ -21,9 +26,9 @@
 :root {
     --background-color: #fbfbfb;
     --text-primary: #272727;
-    --ff-sans: 'Space Grotesk', sans-serif;
-    --ff-serif: Argent Pixel CF;
-    --ff-mono: 'Space Mono', monospace;
+    --ff-sans: "Space Grotesk", sans-serif;
+    --ff-serif: "Argent Pixel CF";
+    --ff-mono: "Space Mono", monospace;
     --margin: 50px;
     --margin-small: 30px;
     --p-width: 40%;
