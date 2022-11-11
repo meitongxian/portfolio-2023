@@ -23,10 +23,9 @@
                 <img src="images\favicon.png" width="36" height="36" alt="Home / favicon">
             </a>
             <ul class="link-list">
-                <li class="nav-item underlined"><a href="index.html">home</a></li>
-                <li class="nav-item underline"><a href="design.html">design</a></li>
-                <li class="nav-item underline"><a href="ar(t)chive.html">ar(t)chive</a></li>
-                <li class="nav-item underline"><a href="fun.html">fun</a></li>
+                <li class="nav-item nav-home underlined"><a href="index.html#">home</a></li>
+                <li class="nav-item nav-work underline"><a href="index.html#work">work</a></li>
+                <li class="nav-item underline"><a href="play.html">play</a></li>
                 <li class="nav-item underline"><a href="about.html">about</a></li>
             </ul>
             <button class="hamburger">
@@ -35,66 +34,120 @@
             </button>
         </nav>
         <!--GREETING-->
-        <div class="header-wrapper">
-            <div class="greeting-wrapper">
-                <h1 class="h1 sans intro greeting-animation">Kia ora!</h1>
-                <h1 class="h1 sans intro greeting-animation">Hello!</h1>
-                <h1 class="h1 sans intro greeting-animation">你好!</h1>
-                <h1 class="h1 sans intro greeting-animation">Kia ora!</h1>
-            </div>
-            <h1 class="h1 serif intro">I'm Maggie.</h1>
-            <div class="spacer-half"></div>
-            <p class="mono p">I’m an artist, designer & incoming first-year student @ 
-                <a class="link" href="https://www.risd.edu/" target="_blank">Rhode Island School of Design</a>.
-                I hope to use my creative skills and interdisciplinary passions to facilitate a 
-                more accessible and inclusive world.</p>
-            <div class="social-icons">
-                <a href="mailto:mxian@risd.edu" target="_blank" class="bi bi-envelope-paper icon-link"></a>
-                <a href="https://www.linkedin.com/in/maggie-xian/" target="_blank" class="fa-brands fa-linkedin-in icon-link"></a>
-                <a href="https://github.com/meitongxian" target="_blank" class="fa-brands fa-github-alt icon-link"></a>
-            </div>
-        </div>
-        <!--FEATURED-->
-        <div class="spacer"></div>
-        <div class="flex-wrapper">
-            <div class="proj-wrapper flex-left">
-                <a href="projects\the1.5.html">
-                    <img class="cover" src="images\covers\1.5-cover.png" alt="1.5-cover" width="100%">
-                    <div class="flex-wrap">
-                        <span class="proj-tag">✨ Featured</span>
-                        <span class="proj-tag">Graphic design</span>
-                        <span class="proj-tag">Adobe CC</span>
-                    </div>
-                    <h3 class="h3 sans medium">The 1.5</h3>
-                    <p class="mono p ital">Migration, identity, and connection.</p>
-                </a>
-            </div>
-            <div class="proj-wrapper flex-right">
-                <a href="projects\modernsanctuary.html">
-                    <img class="cover" src="images\covers\sanctuary-cover.png" alt="sanctuary-cover" width="100%">
-                    <div class="flex-wrap">
-                        <span class="proj-tag">✨ Featured</span>
-                        <span class="proj-tag">Fine art</span>
-                        <span class="proj-tag">Mixed media</span>
-                    </div>
-                    <h3 class="h3 sans medium">Modern Sanctuary</h3>
-                    <p class="mono p ital">Exploring our interactions with places of comfort, whether literal or figurative.</p>
-                </a>
-            </div>
-        </div>
-        <!--FOOTER-->
-        <div class="spacer"></div>
-        <div class="footer-wrapper">
-            <div class="centre">
-                <h3 class="h3-and-a-bit serif ">Thanks for stopping by.<br>Let's keep in touch!</h3>
+        <section id="home">
+            <div class="header-wrapper">
+                <div class="greeting-wrapper">
+                    <h1 class="h1 sans intro greeting-animation">Kia ora!</h1>
+                    <h1 class="h1 sans intro greeting-animation">Hello!</h1>
+                    <h1 class="h1 sans intro greeting-animation">你好!</h1>
+                    <h1 class="h1 sans intro greeting-animation">Kia ora!</h1>
+                </div>
+                <h1 class="h1 serif intro">I'm Maggie.</h1>
+                <div class="spacer-half"></div>
+                <p class="mono p">I’m an artist, designer & first-year student @ 
+                    <a class="link" href="https://www.risd.edu/" target="_blank">Rhode Island School of Design</a>.
+                    I hope to use my creative skills and interdisciplinary passions to facilitate a 
+                    more accessible and inclusive world.</p>
                 <div class="social-icons">
-                    <a href="mailto:mxian@risd.edu" target="_blank" class="bi bi-envelope-paper icon-link_centre"></a>
-                    <a href="https://www.linkedin.com/in/maggie-xian/" target="_blank" class="fa-brands fa-linkedin-in icon-link_centre"></a>
-                    <a href="https://github.com/meitongxian" target="_blank" class="fa-brands fa-github-alt icon-link_centre"></a>
+                    <a href="mailto:mxian@risd.edu" target="_blank" class="bi bi-envelope-paper icon-link"></a>
+                    <a href="https://www.linkedin.com/in/maggie-xian/" target="_blank" class="fa-brands fa-linkedin-in icon-link"></a>
+                    <a href="https://github.com/meitongxian" target="_blank" class="fa-brands fa-github-alt icon-link"></a>
                 </div>
             </div>
-            <p class="copyright">© designed and developed with 💖 by Maggie Xian, 2022</p>
-        </div>
+        </section>
+        <!--WORK-->
+        <section id="work">
+            <div class="spacer"></div>
+            <div class="spacer-half"></div>
+            <div class="flex-wrapper">
+                <div class="proj-wrapper flex-left">
+                    <a href="projects\the1.5.html">
+                        <img class="cover" src="images\covers\1.5-cover.png" alt="1.5-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Graphic design</span>
+                            <span class="proj-tag">Adobe CC</span>
+                            <span class="proj-tag">Extended investigation</span>
+                        </div>
+                        <h3 class="h3 sans medium">The 1.5</h3>
+                        <p class="mono p ital">Migration, identity, and connection.</p>
+                    </a>
+                </div>
+                <div class="proj-wrapper flex-right">
+                    <a href="projects\27prayers.html">
+                        <img class="cover" src="images\covers\thoughts-cover.png" alt="thoughts_and_prayers-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Fine art</span>
+                            <span class="proj-tag">Installation</span>
+                            <span class="proj-tag">Conceptual art</span>
+                        </div>
+                        <h3 class="h3 sans medium">Thoughts and prayers</h3>
+                        <p class="mono p ital">A response to gun violence in the United States.</p>
+                    </a>
+                </div>
+                <div class="proj-wrapper flex-left">
+                    <a href="projects\hyc.html">
+                        <img class="cover" src="images\covers\hyc-cover.png" alt="hyc-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Graphic design</span>
+                            <span class="proj-tag">Adobe CC</span>
+                            <span class="proj-tag">Communications</span>
+                        </div>
+                        <h3 class="h3 sans medium">Howick Youth Council</h3>
+                        <p class="mono p ital">Making East Auckland a more vibrant place for young people.</p>
+                    </a>
+                </div>
+                <div class="proj-wrapper flex-right">
+                    <a href="projects\modernsanctuary.html">
+                        <img class="cover" src="images\covers\sanctuary-cover.png" alt="sanctuary-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Fine art</span>
+                            <span class="proj-tag">Mixed media</span>
+                            <span class="proj-tag">Extended investigation</span>
+                        </div>
+                        <h3 class="h3 sans medium">Modern Sanctuary</h3>
+                        <p class="mono p ital">Exploring our interactions with places of comfort, whether literal or figurative.</p>
+                    </a>
+                </div>
+                <div class="proj-wrapper flex-left">
+                    <a href="projects\lidy.html">
+                        <img class="cover" src="images\covers\lidy-cover.png" alt="lidy-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Graphic design</span>
+                            <span class="proj-tag">Commercial branding</span>
+                            <span class="proj-tag">Adobe CC</span>
+                        </div>
+                        <h3 class="h3 sans medium">Lidy</h3>
+                        <p class="mono p ital">Identity for a ball and event wear boutique.</p>
+                    </a>
+                </div>
+                <div class="proj-wrapper flex-right">
+                    <a href="projects\memorystudy.html">
+                        <img class="cover" src="images\covers\memory-cover.png" alt="memory_study-cover" width="100%">
+                        <div class="flex-wrap">
+                            <span class="proj-tag">Fine art</span>
+                            <span class="proj-tag">Mixed media</span>
+                            <span class="proj-tag">Extended investigation</span>
+                        </div>
+                        <h3 class="h3 sans medium">Memory Study</h3>
+                        <p class="mono p ital">Unpacking the experience of growing up Chinese
+                            in Aotearoa New Zealand, through memories and history.</p>
+                    </a>
+                </div>
+            </div>
+            <!--FOOTER-->
+            <div class="spacer"></div>
+            <div class="footer-wrapper">
+                <div class="centre">
+                    <h3 class="h3-and-a-bit serif ">Thanks for stopping by.<br>Let's keep in touch!</h3>
+                    <div class="social-icons">
+                        <a href="mailto:mxian@risd.edu" target="_blank" class="bi bi-envelope-paper icon-link_centre"></a>
+                        <a href="https://www.linkedin.com/in/maggie-xian/" target="_blank" class="fa-brands fa-linkedin-in icon-link_centre"></a>
+                        <a href="https://github.com/meitongxian" target="_blank" class="fa-brands fa-github-alt icon-link_centre"></a>
+                    </div>
+                </div>
+                <p class="copyright">© designed & developed with 💌 by Maggie Xian, 2022</p>
+            </div>
+        </section> 
         <!--JS-->
         <script src="js\index.js"></script>
     </body>

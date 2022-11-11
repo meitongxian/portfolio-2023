@@ -27,7 +27,7 @@
     --background-color: #fbfbfb;
     --text-primary: #272727;
     --ff-sans: "Space Grotesk", sans-serif;
-    --ff-serif: "Argent Pixel CF";
+    --ff-serif: "Argent Pixel CF", "Georgia", serif;
     --ff-mono: "Space Mono", monospace;
     --margin: 50px;
     --margin-small: 30px;
@@ -250,7 +250,7 @@ figcaption {
     width: var(--p-width);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 160px;
+    margin-top: 170px;
 }
 
 .intro {
@@ -616,7 +616,7 @@ figcaption {
     /*HEADER*/
 
     .header-wrapper {
-        margin-top: 280px;
+        margin-top: 290px;
         width: var(--p-width-big);
     }
 
@@ -647,7 +647,7 @@ figcaption {
     /*HEADER*/
 
     .header-wrapper {
-        margin-top: 380px;
+        margin-top: 390px;
         width: var(--p-width-ultra);
     }
 
