@@ -447,6 +447,7 @@ figcaption {
 .copyright {
     display: flex;
     flex-direction: row-reverse;
+    text-align: right;
     font-family: var(--ff-sans);
     font-weight: 400;
     font-size: 18px;
